@@ -1,0 +1,26 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Boostrap Navbar
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  slogan: "Super Fast!"
+
+menu:
+  main: 
+  - name: Github
+    url: http://www.github.com
+    weight: 90
+  - name: Google
+    url: http://www.google.com
+    weight: 100
+
+markdown: 
+  editor:
+    quickSuggestions: true
+
+
